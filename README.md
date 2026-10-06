@@ -1,4 +1,4 @@
-# Drawing
+# Tactical Situation Plotting Tool
 
 ![cover](portfolio_pics/cover.png)
 
