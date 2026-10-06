@@ -2,7 +2,16 @@
 
 ![cover](portfolio_pics/cover.png)
 
-A C++ plotting tool that began as a way to work out a submarine's tactical situation in a video game by hand: bearings, ranges, courses and distance-over-time along a track. It grew into a small vector-graphics engine that converts raster terrain heightmaps into smooth, layered Bézier contours, giving cleaner and more readable maps than the source pixels.
+A C++ plotting tool that began as a way to work out a submarine's tactical situation in a video game by hand: bearings, ranges, courses and distance-over-time along a track. It grew into a small vector-graphics engine for drawing the terrain underneath those plots.
+
+Terrain starts as a raster heightmap. Raster terrain breaks down when you zoom past its native resolution: coastlines and depth contours turn into blocky pixel staircases. The raster-to-vector pipeline exists to fix that. It can extract a contour at any height in the source raster and convert it into a smooth Bézier polygon that stays clean at any scale. Stacking several heights gives layered terrain, like the isolines on a topographic or bathymetric chart.
+
+## Highlights
+
+- **Geospatial data processing:** contour extraction from gridded elevation data, connected-region analysis, and sub-pixel interpolation of the raster surface.
+- **Mathematics:** least-squares polynomial and Bézier fitting, closed-form cubic root-finding, and analytic curve bounds and intersections, built on hand-written matrix code.
+- **Graphics processing:** analytic viewport clipping of filled curved polygons, adaptive tessellation, and anti-aliased rasterization.
+- **Data presentation:** layered, resolution-independent terrain under a set of navigation measurement overlays: range, bearing, angle and distance along a track.
 
 Rendering uses [Anti-Grain Geometry](https://agg.sourceforge.net/antigrain.com/) (AGG 2.5) for anti-aliased scanline output. [Irrlicht](https://irrlicht.sourceforge.io/) provides the window, input and display. The project builds with GCC through Code::Blocks on Windows.
 
@@ -21,12 +30,13 @@ Rendering uses [Anti-Grain Geometry](https://agg.sourceforge.net/antigrain.com/)
 - **Export:** BMP export of the current view.
 
 **Terrain**
-- Procedural heightmaps built from three octaves of Perlin noise.
-- Six nested elevation levels traced into closed Bézier outlines and drawn as layered filled shapes.
+- **Contours at any height:** vectorizes the contour at any height chosen from the source raster. The demo stacks six levels.
+- **Output:** closed Bézier polygons, drawn as layered filled shapes or as outlines, that stay sharp at any zoom.
+- **Test data:** procedural heightmaps built from three octaves of Perlin noise.
 
 ## How the terrain vectorization works
 
-1. **Heightmap.** Gradient (Perlin) noise with a quintic fade curve. Octaves on 8-, 16- and 32-cell grids are summed and rescaled into a 1024×1024 map.
+1. **Heightmap (test data).** Gradient (Perlin) noise with a quintic fade curve. Octaves on 8-, 16- and 32-cell grids are summed and rescaled into a 1024×1024 map.
 
 2. **Region isolation.** Each elevation threshold produces a binary mask. A recursive scanline flood fill separates connected regions and discards tiny ones.
 
