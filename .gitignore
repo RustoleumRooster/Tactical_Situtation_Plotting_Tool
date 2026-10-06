@@ -1,0 +1,34 @@
+# Build output directories
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled binaries
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+
+# Profiler output
+gmon.out
+
+# Code::Blocks generated files
+*.depend
+*.layout
+
+# Visual Studio
+.vs/
+*.user
+
+# Office lock files
+.~lock.*#
+~$*
