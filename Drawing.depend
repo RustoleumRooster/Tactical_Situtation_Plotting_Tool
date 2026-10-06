@@ -1,0 +1,163 @@
+# depslib dependency file v1.0
+1601843329 source:c:\users\natan\documents\codeblocks\drawing\drawing.cpp
+	<agg_basics.h>
+	<agg_rendering_buffer.h>
+	<agg_rasterizer_scanline_aa.h>
+	<agg_scanline_p.h>
+	<agg_renderer_scanline.h>
+	"agg_font_win32_tt.h"
+	<agg_path_storage.h>
+	"agg_conv_marker.h"
+	"agg_vcgen_markers_term.h"
+	<agg_conv_unclose_polygon.h>
+	<agg_conv_stroke.h>
+	<agg_conv_bspline.h>
+	<agg_conv_curve.h>
+	<agg_conv_contour.h>
+	<pixel_formats.h>
+	<interactive_polygon.h>
+	<agg_renderer_primitives.h>
+	"agg_scanline_u.h"
+	"agg_span_allocator.h"
+	"agg_span_gradient.h"
+	"agg_span_interpolator_linear.h"
+	"agg_conv_dash.h"
+	<irrlicht.h>
+	<math.h>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	"PolyTypes.h"
+	"PlotObjects.h"
+	"NoiseMap.h"
+	"Outline.h"
+	"Plot.h"
+
+1160374042 source:c:\users\natan\desktop\agg-2.5\src\agg_vcgen_stroke.cpp
+	<math.h>
+	"agg_vcgen_stroke.h"
+	"agg_shorten_path.h"
+
+1160374014 source:c:\users\natan\desktop\agg-2.5\src\agg_font_win32_tt.cpp
+	<stdio.h>
+	"agg_font_win32_tt.h"
+	"agg_bitset_iterator.h"
+	"agg_renderer_scanline.h"
+
+1160374036 source:c:\users\natan\desktop\agg-2.5\src\agg_curves.cpp
+	<math.h>
+	"agg_curves.h"
+	"agg_math.h"
+
+1160374042 source:c:\users\natan\desktop\agg-2.5\src\agg_trans_affine.cpp
+	"agg_trans_affine.h"
+
+1160374042 source:c:\users\natan\desktop\agg-2.5\src\agg_vcgen_contour.cpp
+	<math.h>
+	"agg_vcgen_contour.h"
+
+1584917727 c:\users\natan\documents\codeblocks\drawing\plotobjects.h
+	<iostream>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"PolyTypes.h"
+	"NoiseMap.h"
+	"agg_array.h"
+
+1585778083 c:\users\natan\documents\codeblocks\drawing\polytypes.h
+	<iostream>
+	"agg_basics.h"
+	"Outline.h"
+
+1601843514 source:c:\users\natan\documents\codeblocks\drawing\plotobjects.cpp
+	"PlotObjects.h"
+	"PolyTypes.h"
+	"Poly34.h"
+
+1585611821 source:c:\users\natan\documents\codeblocks\drawing\polytypes.cpp
+	"PolyTypes.h"
+	<agg_basics.h>
+
+1585773365 source:c:\users\natan\documents\codeblocks\drawing\noisemap.cpp
+	"NoiseMap.h"
+	"PolyTypes.h"
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	"poly34.h"
+
+1583110492 c:\users\natan\documents\codeblocks\drawing\noisemap.h
+	<iostream>
+
+1584730876 c:\users\natan\documents\codeblocks\drawing\plot.h
+	"PlotObjects.h"
+	"NoiseMap.h"
+
+1585869982 source:c:\users\natan\documents\codeblocks\drawing\plot.cpp
+	"Plot.h"
+	"PlotObjects.h"
+	<string.h>
+	<sstream>
+	"ASSERTS.h"
+
+1580757438 source:c:\users\natan\documents\codeblocks\drawing\poly34.cpp
+	<math.h>
+	"poly34.h"
+
+1581994415 c:\users\natan\documents\codeblocks\drawing\poly34.h
+
+1160370442 source:c:\users\natan\desktop\agg-2.5\src\agg_line_aa_basics.cpp
+	<math.h>
+	"agg_line_aa_basics.h"
+
+1160370442 source:c:\users\natan\desktop\agg-2.5\src\agg_sqrt_tables.cpp
+	"agg_basics.h"
+
+1586186750 c:\users\natan\documents\codeblocks\drawing\outline.h
+	<iostream>
+
+1586186828 source:c:\users\natan\documents\codeblocks\drawing\outline.cpp
+	"Outline.h"
+	"NoiseMap.h"
+	"PolyTypes.h"
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	"poly34.h"
+	"ASSERTS.h"
+
+1160374042 source:c:\users\natan\desktop\agg-2.5\src\agg_vcgen_dash.cpp
+	<math.h>
+	"agg_vcgen_dash.h"
+	"agg_shorten_path.h"
+
+1160374042 source:c:\users\natan\desktop\agg-2.5\src\agg_vcgen_markers_term.cpp
+	"agg_vcgen_markers_term.h"
+
+1584917859 source:c:\users\natan\documents\codeblocks\drawing\plotobjects2.cpp
+	<iostream>
+	<string.h>
+	<sstream>
+	"PlotObjects.h"
+	"PolyTypes.h"
+
+1585617802 source:c:\users\natan\documents\codeblocks\drawing\bezobjects.cpp
+	"PlotObjects.h"
+	"PolyTypes.h"
+	"Poly34.h"
+
+1533814092 source:c:\users\natan\documents\codeblocks\drawing\asserts.cpp
+	"asserts.h"
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1040231870 c:\users\natan\documents\codeblocks\drawing\asserts.h
+

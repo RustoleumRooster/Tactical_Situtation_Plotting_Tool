@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Drawing" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Drawing" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Drawing" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../../Desktop/agg-2.5/src/agg_curves.cpp" />
+		<Unit filename="../../../Desktop/agg-2.5/src/agg_font_win32_tt.cpp" />
+		<Unit filename="../../../Desktop/agg-2.5/src/agg_trans_affine.cpp" />
+		<Unit filename="../../../Desktop/agg-2.5/src/agg_vcgen_contour.cpp" />
+		<Unit filename="../../../Desktop/agg-2.5/src/agg_vcgen_dash.cpp" />
+		<Unit filename="../../../Desktop/agg-2.5/src/agg_vcgen_markers_term.cpp" />
+		<Unit filename="../../../Desktop/agg-2.5/src/agg_vcgen_stroke.cpp" />
+		<Unit filename="ASSERTS.CPP" />
+		<Unit filename="ASSERTS.H" />
+		<Unit filename="BezObjects.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drawing.cpp" />
+		<Unit filename="NoiseMap.cpp" />
+		<Unit filename="NoiseMap.h" />
+		<Unit filename="Outline.cpp" />
+		<Unit filename="Outline.h" />
+		<Unit filename="Plot.cpp" />
+		<Unit filename="Plot.h" />
+		<Unit filename="PlotObjects.cpp" />
+		<Unit filename="PlotObjects.h" />
+		<Unit filename="PlotObjects2.cpp" />
+		<Unit filename="PolyTypes.cpp" />
+		<Unit filename="PolyTypes.h" />
+		<Unit filename="poly34.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
