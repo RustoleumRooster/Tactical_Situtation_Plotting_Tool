@@ -1,6 +1,6 @@
 # Tactical Situation Plotting Tool
 
-![cover](bmptest22.bmp)
+![cover](bmpTest22.bmp)
 
 A C++ plotting tool that began as a way to work out a submarine's tactical situation in a video game by hand: bearings, ranges, courses and distance-over-time along a track. It grew into a small vector-graphics engine for drawing the terrain underneath those plots.
 
